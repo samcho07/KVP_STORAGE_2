@@ -1,8 +1,5 @@
 # KVP_STORAGE
-
-Key-Value Storage Application (KVPStorage)
-
-📌 Introduction
+📌 # Introduction
 
 This is a simple key-value storage application implemented in C++. It allows users to persistently store, retrieve, and delete key-value pairs via a command-line interface. The application is designed to run on Desktop Linux (Ubuntu) and can be packaged for Embedded Linux using Buildroot.
 
@@ -18,7 +15,8 @@ Portable Code: Runs on both Desktop Linux and Embedded Linux (ARM).
 
 Buildroot Integration: Can be packaged as an embedded Linux application.
 
-🛠️ Setup Instructions
+
+🛠️ # Setup Instructions
 
 1️⃣ Prerequisites
 
@@ -36,33 +34,23 @@ git → Used for version control.
 
 4️⃣ Run the Application
 
-🎯 Usage
+🎯 # Usage
 
 Basic Commands
 
-Command
+| Command             | Description                    |
+| :----------------   | :-----------------------------:|
+| SET <key> <value>   |   Stores a key-value pair      | 
+| GET <key>           |   Retrieves the value of a key |
+| DELETE <key>        |  Removes a key from storage    |
 
-Description
 
-SET <key> <value>
-
-Stores a key-value pair
-
-GET <key>
-
-Retrieves the value of a key
-
-DELETE <key>
-
-Removes a key from storage
-
-Example Usage
-
-🔬 Running Tests
+🔬 # Running Tests
 
 A unit test file (test/test_kvp_storage.cpp) is included. To compile and run tests:
 
-📦 Embedded Linux (Buildroot Integration)
+
+📦 # Embedded Linux (Buildroot Integration)
 
 1️⃣ Prepare Buildroot
 
@@ -77,3 +65,8 @@ Create a Config.in file:
 Create a kvp_storage.mk file:
 
 3️⃣ Build & Run in QEMU
+
+
+
+
+
