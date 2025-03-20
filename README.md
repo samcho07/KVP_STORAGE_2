@@ -1,5 +1,5 @@
 # KVP_STORAGE
-📌 # Introduction
+# 📌  Introduction
 
 This is a simple key-value storage application implemented in C++. It allows users to persistently store, retrieve, and delete key-value pairs via a command-line interface. The application is designed to run on Desktop Linux (Ubuntu) and can be packaged for Embedded Linux using Buildroot.
 
