@@ -16,7 +16,7 @@ Portable Code: Runs on both Desktop Linux and Embedded Linux (ARM).
 Buildroot Integration: Can be packaged as an embedded Linux application.
 
 
-🛠️ # Setup Instructions
+# 🛠️ Setup Instructions
 
 1️⃣ Prerequisites
 
@@ -34,7 +34,7 @@ git → Used for version control.
 
 4️⃣ Run the Application
 
-🎯 # Usage
+# 🎯 Usage
 
 Basic Commands
 
@@ -45,12 +45,12 @@ Basic Commands
 | DELETE <key>        |  Removes a key from storage    |
 
 
-🔬 # Running Tests
+# 🔬 Running Tests
 
 A unit test file (test/test_kvp_storage.cpp) is included. To compile and run tests:
 
 
-📦 # Embedded Linux (Buildroot Integration)
+# 📦 Embedded Linux (Buildroot Integration)
 
 1️⃣ Prepare Buildroot
 
